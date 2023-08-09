@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Control de inventarios',
+    descripcionCurso:
+      'Los inventarios son el activo más importante en una organización, por tanto, es muy necesario tener una buena gestión, ya que esto permite contar con el stock necesario para cumplir a tiempo con la demanda, teniendo a sus clientes satisfechos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/float-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-3.svg'),
       },
     ],
   },
@@ -31,13 +36,59 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conceptos generales',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Clasificación de las mercancías',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Clasificación de inventarios',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Políticas de inventarios',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Funciones de los inventarios',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Ficha técnica del producto',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Gestión de inventarios',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Trazabilidad en la gestión de inventarios',
+            hash: 't_1_7',
+          },
+          {
+            numero: '1.8',
+            titulo: 'Trazabilidad en la gestión de inventarios',
+            hash: 't_1_8',
+          },
+          {
+            numero: '1.9',
+            titulo: 'Cadena de suministros e inventarios',
+            hash: 't_1_9',
+          },
+          {
+            numero: '1.10',
+            titulo:
+              '1.10.	Administración de inventario por proveedores (Vendor Inventory Management - VMI)',
+            hash: 't_1_10',
           },
         ],
       },
@@ -45,14 +96,40 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Costos de inventarios',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Clases de costos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Costos de pedidos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Costos de mantenimiento de inventarios de materias primas',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Costos de falta de existencias',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Sistema ABC de inventarios',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Cantidad económica de Pedido (EOQ)',
+            hash: 't_2_6',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,33 +178,103 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
-    },
+    // {
+    //   tema: '',
+    //   referencia: '',
+    //   tipo: '',
+    //   link: 'https://www.google.com/',
+    // },
+    // {
+    //   tema: '',
+    //   referencia: '',
+    //   tipo: '',
+    //   descarga: '/downloads/prueba.pdf',
+    // },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Almacenamiento',
+      significado:
+        'proceso en el cual una vez verificada la mercadería se dispone a ubicarla en un espacio físico de acuerdo con sus características de tamaño, peso, fragilidad, rotación y fecha de expiración.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Alta dirección',
+      significado:
+        'persona o el conjunto que tienen la responsabilidad de tomar las decisiones de la organización, establecer los objetivos y diseñar las estrategias para la consecución de los resultados que generen rentabilidad.',
+    },
+    {
+      termino: 'Control de inventario',
+      significado:
+        'tiene por objeto velar por la existencia de los stocks dentro del almacén, (inventarios cíclicos, inventarios de barrido, preservación de producto) con el fin de tener un ERI óptimo (Exactitud Registro de Inventario). Así mismo, corresponde a todos los movimientos que se realice de la mercadería (transferencia, producto no conforme, devoluciones, etc.).',
+    },
+    {
+      termino: 'Costos',
+      significado:
+        'valor monetario de los gastos que se generan en la producción, fabricación o procesamiento de un producto o servicio como materias primas, insumos, mano de obra, servicios, infraestructura, equipos y maquinaria, etc.',
+    },
+    {
+      termino: 'Materia prima',
+      significado:
+        'materia extraída de otros materiales y que se utiliza o transforma para elaborar otros materiales que más tarde se convertirán en bienes de consumo.',
+    },
+    {
+      termino: 'Mercancía',
+      significado: 'bien con lo que se comercia.',
+    },
+    {
+      termino: 'Productos en proceso',
+      significado:
+        'productos que están en proceso de fabricación o producción.',
+    },
+    {
+      termino: 'Productos terminados',
+      significado:
+        'productos que han pasado completamente el ciclo de producción en una empresa determinada, han sido totalmente completados, han pasado el control técnico y se han entregado en el almacén o se han enviado al consumidor (revendedor).',
+    },
+    {
+      termino: 'Recepción',
+      significado:
+        'proceso mediante el cual se realiza la verificación y control físico y documental de la mercadería que ingresa al almacén desde una importación o compra local, hasta la logística inversa (devoluciones).',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Becerra, G., K., Pedroza, B., V., Pinilla, J., y Vargas, L., M. (2017). Implementación de las TIC’S en la gestión de inventario dentro de la cadena de suministro. <em>Revista de Iniciación Científica</em>, 3(1), 36-49. ',
+      link: 'https://core.ac.uk/download/pdf/234019677.pdf',
+    },
+    {
+      referencia:
+        'EAE Business School. (2020). <em>La gestión de inventarios, un aspecto clave en la planificación de cadenas de suministro.</em>',
+      link:
+        'https://retos-operaciones-logistica.eae.es/la-gestion-de-inventarios-un-aspecto-clave-en-la-planificacion-de-cadenas-de-suministro/ ',
+    },
+    {
+      referencia:
+        'Osorio, L., Vásquez, J., y Moreno, L. (2017). Ficha técnica materia prima avena en hojuelas.',
+      link:
+        'https://www.studocu.com/co/document/universidad-nacional-abierta-y-a-distancia/calculo-diferencial/formato-ficha-tecnica-avena-en-hojuelas/9387541 ',
+    },
+    {
+      referencia:
+        'Procolombia. (2017). Organización Mundial de Aduanas (OMA) aprobó nueva clasificación arancelaria.',
+      link:
+        'https://procolombia.co/actualidad-internacional/organizacion-mundial-de-aduanas-oma-aprobo-nueva-clasificacion-arancelaria ',
+    },
+    {
+      referencia: 'Riquelme, M. (2017). ¿Qué son los costos de inventario?',
+      link: 'https://www.webyempresas.com/que-son-los-costos-de-inventario/ ',
+    },
+    {
+      referencia:
+        'Rodríguez, B. (s.f.). TIC’s aplicadas a la logística. Módulo 2.',
+      link:
+        'http://virtualnet2.umb.edu.co/virtualnet/archivos/open.php/133/modulo2/pdf/tecinfcom.pdf ',
+    },
+    {
+      referencia: 'Salazar, L. (2019). Cantidad económica de pedidos - EOQ.',
+      link:
+        'https://www.ingenieriaindustrialonline.com/gestion-de-inventarios/cantidad-economica-de-pedidos-eoq/ ',
     },
   ],
   creditos: [

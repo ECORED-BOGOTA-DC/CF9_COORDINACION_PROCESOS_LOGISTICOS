@@ -2,13 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 57%
+    right: 90%
+    width: 68px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 13%
+    right: 9%
+    width: 83px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: -4%
+    width: 64px
 
 
 @keyframes float1
@@ -17,3 +25,115 @@
 
   100%
     transform: translateY(0px)
+.banner-principal
+  .banner-principal__row
+    min-height: 505px
+  .banner-principal__img
+    padding-bottom: 0 !important
+    padding-right: 0 !important
+    margin: auto
+    margin-bottom: 3rem
+    img
+      max-width: 466px
+      margin-left: auto
+
+.contenedor-principal
+  .seccion-principal
+    .curso-main-container
+      .banner-interno
+        min-height: 170px
+      .banner-interno__fondo
+        background-image: url('../assets/curso/portada/banner-principal-top.svg') !important
+
+.container-100
+  margin-left: -3rem
+  margin-right: -3rem
+  padding-right: 3rem
+  padding-left: 3rem
+
+.tarjeta-edit-2
+  padding: 1.5rem
+  border-bottom-left-radius: 29px
+  border-bottom-right-radius: 29px
+  margin-bottom: 2rem
+  position: relative
+  background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 49%, rgba(222,222,222,1) 100%)
+  margin-top: -4rem
+  box-shadow: 0 0 3px 4px #00000010
+  @media (max-width: 768px)
+    margin-top: 0
+    box-shadow: 0 0 2px 2px #00000010
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+  max-width: 295px
+  margin-right: auto
+  margin-left: auto
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1)
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.linea-tiempo-d
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #E9F0FE
+
+.slyderB_bg_01
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema1/bg-slyder.svg")
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  border-radius: 15px
+  .slyder-a
+    .slyder-a__bullets
+      .slyder-a__bullets__item
+        background-color: #BAECE9
+        border-color: #BAECE9
+        &--active
+          background-color: #4ADBD1
+    .slyder-a__tipo-b
+      .slyder-a__btn--atrs, .slyder-a__btn--sigt
+        background-color: #5573C6
+        color: white
+        border: none
+      .slyder-a__btn--atrs
+        background-image: url("../assets/curso/temas/arrow-slyder.svg")
+        transform: rotate(-180deg)
+      .slyder-a__btn--sigt
+        transform: none
+        background-image: url("../assets/curso/temas/arrow-slyder.svg")
+.number
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: attr(data-number)   
+    position: absolute
+    top: -6rem
+    left: 0rem
+    width: 100%
+    height: 100%
+    font-weight: 700
+    font-size: 120pt
+    color: #E1E2E5
+    z-index: 0
