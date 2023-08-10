@@ -195,6 +195,203 @@
         .cajon.color-primario.p-4.mb-3(data-aos="fade-right" style="background-color: #E0F4FE")
           p.mb-0 Para diseñar las políticas de los inventarios, la alta dirección debe conocer muy bien el funcionamiento de la organización y tener en cuenta factores como capacidad de almacenamiento, tiempo de reabastecimiento, compromisos con clientes, naturaleza de la mercancía y restricciones del proveedor:
 
+    .d-flex.flex-wrap.mb-5
+      .col-12.col-lg-8.pe-lg-4.order-2.order-lg-1
+        LineaTiempoD.color-secundario(data-aos="fade-right")
+          div(numero="1" titulo="Almacenamiento")
+            p.mb-0 Esta variable tiene que ver con la capacidad de almacenamiento que tiene la organización, zonas destinadas para bodega y el costo que tiene el mantenimiento y manejo de los inventarios, así como el valor de la mano de obra del personal que está a cargo del inventario.
+          div(numero="2" titulo="Tiempo de reabastecimiento")
+            p.mb-0 Es el tiempo que dura desde la programación y gestión del pedido hasta la llegada de las materias primas o insumos necesarios para la fabricación de los productos en la empresa. Es importante lograr una excelente articulación entre las áreas de compras, producción, financiera, ventas para que no se generen contratiempos en cualquier etapa del pedido afectando la cadena y, por ende, incumpliendo compromisos con los clientes.
+          div(numero="3" titulo="Compromisos con los clientes")
+            p.mb-0 Esta variable es de gran importancia porque se deben cumplir con los tiempos de entrega prometidos a los clientes, planificar las temporadas de alta demanda como ofertas comerciales, Navidad, vacaciones.
+          div(numero="4" titulo="Naturaleza de la mercancía")
+            p.mb-0 Se debe tener en cuenta la caducidad de los insumos, si son perecederos, la forma en que se debe mantener almacenados, frío o calor, la rotación.
+          div(numero="5" titulo="Proveedores")
+            p.mb-0 Hay que tener en cuenta la capacidad de respuesta de los proveedores, tiempo de demora en la entrega de los pedidos, las condiciones para la entrega si se debe realizar un pedido medido, si el proveedor tiene que fabricarlo o lo tiene disponible para entrega, así como el medio de transporte.
+      img.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema1/img-15.svg" style="max-width: 321px")
+    
+    .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
+      img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 136px;" data-aos="fade-right")
+      .col-md.ps-md-4
+        p.fw-bold.mb-0 Es importante analizar cada aspecto para diseñar de forma eficiente las políticas de los inventarios, garantizando las existencias de las mercancías y responder a los requerimientos de la demanda, haciendo uso apropiado de los recursos de la organización, ya que los inventarios representan una inversión alta que ejercen gran influencia en las decisiones financieras. Un inventario alto demuestra elevados costos de mantenimiento; y la falta de inventario, incumplimiento en entregas, paradas de producción, pérdidas de ventas o clientes insatisfechos.
+
+    .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-16.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+        p.mb-0 Además, se debe lograr una eficiente articulación de toda la cadena de suministro de forma tal que los tiempos de respuesta de cada área de la organización no afecten el funcionamiento ni generen retrasos en la operación, desde que se inicia el proceso con las requisiciones de materias primas o insumos, hasta que sale el producto final con destino a los clientes; es decir, el área de compras debe hacer los pedidos a tiempo para que los insumos estén disponibles cuando los requiera producción y que el producto esté terminado en el tiempo pactado con el cliente. 
+    
+    p.mb-5 Para determinar las políticas de inventarios se debe tener en cuenta lo descrito en la figura 1.
+
+    .mx-auto.col-lg-10.col-xl-8
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 1.
+        span Políticas de inventario
+      figure
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 610px;" data-aos="fade-left")
+
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_1_4 1.4 Funciones de los inventarios
+    
+    p.mb-5 Los inventarios en una organización son la referencia en todas las etapas de operación, desde el proceso como materias primas hasta que terminan como productos terminados que serán entregados a los clientes; por tanto, requieren una atención importante, ya que de acuerdo con los tiempos de demora en la cadena de suministros se definen las existencias y su reabastecimiento, porque una inadecuada administración puede generar pérdidas que afectan en gran medida las finanzas en una empresa. 
+
+    .d-flex.flex-wrap.mb-5
+      img.col-lg-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-18.svg" style="max-width: 400px")
+      .col-12.col-lg-8.ps-lg-4
+        p La alta dirección debe tener una buena planificación y administración de los inventarios para lograr:
+        ul.lista-ul--separador
+          li.d-flex.align-items-start.pb-2.mb-2
+            img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+            p.mb-0 Disminuir costos por pérdidas en las diferentes etapas del proceso, como paradas en la producción por escasez de la materia prima requerida para la operación lo que conlleva a tiempo perdido tanto para maquinaria como para la mano de obra, pérdidas en las ventas por no tener el producto disponible cuando el cliente lo requiere lo que puede llevar a clientes insatisfechos que se van para la competencia dejando mala imagen de la organización.
+          li.d-flex.align-items-start.pb-2.mb-2
+            img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+            p.mb-0 Garantizar la disponibilidad de la mercancía ofertada cumpliendo con los requerimientos de entrega en los tiempos pactados y con productos de calidad para satisfacer las necesidades de los clientes.
+    
+    .d-flex.flex-wrap.mb-5
+      .col-12.col-lg-8.pe-lg-4.order-2.order-lg-1
+        ul.lista-ul--separador
+          li.d-flex.align-items-start.pb-2.mb-2
+            img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+            p.mb-0 Tener control de los inventarios para así detectar los requerimientos reales de las compras de las materias primas o insumos necesarios para la operación de la organización, evitando retrasos y planificando así compras en lotes o volúmenes para minimizar costos.
+          li.d-flex.align-items-start.pb-2.mb-2
+            img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+            p.mb-0 Permitir a la organización manejar materiales perecederos teniendo un adecuado flujo de utilización de acuerdo con su vida útil.
+          li.d-flex.align-items-start.pb-2.mb-2
+            img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+            p.mb-0 Organizar y planificar el mantenimiento y manejo del almacenamiento de los inventarios optimizando recursos como mano de obra, equipos, maquinaria, instalaciones, etc. 
+      img.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema1/img-19.svg" style="max-width: 400px")
+
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_1_5 1.5 Ficha técnica del producto
+    
+    .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-20.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+        p.mb-0 La ficha técnica de un producto o servicio es un documento en el que se especifican todas sus características, como composición, características físicas y técnicas, recomendaciones, forma de almacenamiento, cuidados, formas de uso y otros datos importantes; lo anterior permite estandarizar el producto dando una presentación clara a los usuarios de lo que están comprando para determinar si cumple con sus requerimientos o necesidades.
+
+    p.mb-5 Este documento debe ser visible, de fácil lectura, con la información precisa y actualizada teniendo en cuenta el mercado al que va dirigido; en el mercado hay fichas técnicas de productos químicos, medicamentos, alimentos, etc.
+
+    .cajon.color-primario.p-4.mb-3(data-aos="fade-right" style="background-color: #E0F4FE")
+      p.mb-0 Las fichas técnicas, por lo general, están representadas por cuadros o viñetas que contienen la siguiente información:
+    
+    .d-flex.flex-wrap.justify-content-center.mb-5.container-100.py-5(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.png')})`}"
+      style="background-size: contain; background-repeat: no-repeat; background-position: center"
+    )
+      .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
+        span.number-tj 01
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-1.svg" style="max-width: 93px")
+        p.text-center.mb-0 <b>Identificación del producto:</b> nombre comercial, técnico o científico.
+      
+      .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
+        span.number-tj 02
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-2.svg" style="max-width: 93px")
+        p.text-center.mb-0 <b>Información comercial:</b> usos, empaque, presentación, variedades, embalaje, unidades por caja.
+      
+      .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
+        span.number-tj 03
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-3.svg" style="max-width: 93px")
+        p.text-center.mb-0 <b>Información técnica:</b> características físicas y químicas, densidad, composición.
+      
+      .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
+        span.number-tj 04
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-4.svg" style="max-width: 93px")
+        p.text-center.mb-0 <b>Aspectos arancelarios:</b> si el producto se acoge a algún TLC, partidas arancelarias.
+
+    p.mb-5 Algunos ejemplos de fichas técnicas son lo que se hacen para los alimentos o las materias primas tal como lo puedes ver en el siguiente recurso:
+
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(90deg, rgba(26,15,145,1) 26%, rgba(58,180,177,1) 100%);")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-21.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0.texto-blanco
+              h3.mb-1 Ficha técnica materia prima avena en hojuelas
+              p.text-small Osorio, Vásquez y Moreno (2017).  Archivo PDF que puede ver en el siguiente enlace:
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.studocu.com/co/document/universidad-nacional-abierta-y-a-distancia/calculo-diferencial/formato-ficha-tecnica-avena-en-hojuelas/9387541" target="_blank" style="background-color: #E6B046")
+                span Ir a página
+                i.fas.fa-link
+
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_1_6 1.6 Gestión de inventarios
+    
+    p.mb-5 La gestión de inventarios es un pilar para tener en cuenta en todas las empresas, tal como se puede ver en el siguiente recurso.
+
+    .d-flex.flex-wrap
+      img.col-lg-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-18.svg" style="max-width: 400px")
+      .col-12.col-lg-8.ps-lg-4
+        LineaTiempoD.color-secundario(data-aos="fade-right")
+          div(numero="1" titulo="Gestión de inventarios")
+            p.mb-0 Una organización debe conocer muy bien su funcionamiento, ya que de esta forma puede realizar una correcta gestión de sus inventarios, lo cual tiene como finalidad controlar el flujo de mercancías de manera que se puedan reducir las existencias y teniendo siempre en stock lo necesario para cumplir con los requerimientos de los clientes.
+          div(numero="2" titulo="Registro exacto")
+            p.mb-0 La gestión de inventarios busca un control preciso de existencias y un registro exacto de movimientos, abarcando materias primas, insumos en fabricación y productos terminados listos para la venta. Permite optimizar recursos, reducir costos y pérdidas, e incrementar la productividad al conocer ubicaciones precisas y disponibilidad.
+          div(numero="3" titulo="Nivel de almacenamiento")
+            p.mb-0 Para que una buena gestión de inventarios dé resultados, la alta dirección debe determinar muy bien su nivel de almacenamiento y en qué momento se deben realizar los pedidos para optimizar los recursos y no incurrir en costos elevados para la organización.
+          div(numero="4" titulo="Costos innecesarios")
+            p.mb-0 Uno de los principales objetivos de la gestión de inventarios es la determinación de los métodos para el registro de todos los movimientos de la mercancía (entradas - salidas) dentro del proceso, registro de las compras, pérdidas y existencias.
+    
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_1_7 1.7 Trazabilidad en la gestión de inventarios
+    
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-23.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+        p.mb-0 <b>“La trazabilidad es el seguimiento que se le hace a todos los movimientos de un producto durante todas las etapas del proceso productivo” EAE Business School (2020)</b>, así, es la habilidad de trazar la ruta desde que ingresan los insumos o materias primas, durante el proceso productivo, el producto terminado y, por último, hasta la entrega final al consumidor.
+
+    .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
+      img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 136px;" data-aos="fade-right")
+      .col-md.ps-md-4
+        p.mb-0 Según la Organización Internacional para la Estandarización (ISO), la trazabilidad es <b>“la propiedad que dispone el resultado de un valor estándar, que puede vincularse con referencias específicas mediante continuas comparaciones”</b>; lo cual se traduce a un conjunto de medidas, acciones y procesos que permiten el rastreo del producto en todas sus etapas de «vida».
+
+    p.mb-5 Estos rastreos pueden ser:
+
+    img.mb-5.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img-25.svg")
+    img.mb-5.d-none.d-md-flex.d-lg-none(src="@/assets/curso/temas/tema1/img-25-md.svg")
+    img.mb-5.d-flex.d-md-none(src="@/assets/curso/temas/tema1/img-25-xs.svg")
+
+    .cajon.color-primario.p-4.mb-5(data-aos="fade-right" style="background-color: #E0F4FE")
+      p.mb-0 El objetivo de un procedimiento de rastreo es identificar y saber el origen, el proceso y la distribución de las mercancías, permitiendo la identificación de posibles errores o fallas que se puedan optimizar disminuyendo costos y mejorando la calidad en la entrega a los clientes. Es tener la ubicación de un producto en la cadena de suministro en cualquier momento, saber su recorrido de dónde viene y cuál es su destino (figura 2).
+    
+    .mx-auto.col-lg-10.col-xl-8
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 2.
+        span Trazabilidad de un producto
+      figure
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 820px;" data-aos="fade-left")
+    p.mb-5 La trazabilidad de un producto permite conocer todo lo que pasa con la mercancía desde la llegada hasta su despacho; ubicación, destino y características, lo que permite detectar fallas en el proceso.
+
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_1_8 1.8 TIC aplicadas en la gestión de inventarios
+    
+    .d-flex.flex-wrap.mb-5
+      img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-27.png" style="max-width: 295px;" data-aos="fade-right")
+      .col-lg-8.col-xl-9.col-md-7.ps-md-4
+        p Hoy en día el uso de las Tecnologías de Información y la Comunicación (TIC) son fundamentales en el funcionamiento de las organizaciones, pues son herramientas indispensables y necesarias para la gestión de los inventarios, al tiempo que permiten optimizar y tener mayor exactitud en el control de las existencias, agilizando, flexibilizando y mejorando el intercambio de información.
+        .cajon.color-primario.p-4.mb-3(data-aos="fade-right" style="background-color: #E0F4FE")
+          p.mb-0 Las ventajas de aplicar las TIC en la gestión de los inventarios son diferenciales, debido a que permiten automatizar todo tipo de procesos teniendo registros en tiempo real, lo que permite monitorear las tareas y aumentar la productividad del personal, ya que agiliza las actividades operativas, centraliza la información de la cadena de suministros, reduce la probabilidad de errores y se tiene precisión en la información en tiempo real.
+    
+    p.mb-5 Las principales TIC aplicadas a la logística interna, son: 
+
+    
+
+
 </template>
 
 <script>
