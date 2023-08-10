@@ -165,3 +165,39 @@
       margin-right: 0px
   @media (max-width: 431px)
     margin-right: 0px
+
+.container-tarjeta-edit-2
+  position: relative
+  .img-decorativa
+    position: absolute
+    top: 40%
+    right: 1rem
+    max-width: 120px
+  .container-data
+    padding:  1.5rem
+  @media (max-width: 1400px)
+    .img-decorativa
+      top: 26%
+  @media (max-width: 1200px)
+    .img-decorativa
+      top: 20%
+  @media (max-width: 991px)
+    .img-decorativa
+      top: 32%
+  @media (max-width: 991px)
+    .img-decorativa
+      display: none
+.img-infografica 
+  .img-infografica__content
+    .img-infografica__card
+      z-index: -1
+      width: 635px
+      transition: all .2s linear
+      &--selected
+        z-index: 2
+      .tarjeta-edit-t2
+        width: 100%
+        padding: 1.5rem
+        background-color: #F6F6F6
+      @media (max-width: 991px)
+        width: auto
