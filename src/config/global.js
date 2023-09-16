@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Control de inventarios',
     descripcionCurso:
-      'Los inventarios son el activo más importante en una organización, por tanto, es muy necesario tener una buena gestión, ya que esto permite contar con el stock necesario para cumplir a tiempo con la demanda, teniendo a sus clientes satisfechos.',
+      'Los inventarios son el activo más importante en una organización, por tanto, es muy necesario tener una buena gestión, ya que esto permite contar con el <em>stock</em> necesario para cumplir a tiempo con la demanda, teniendo a sus clientes satisfechos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -76,7 +76,7 @@ export default {
           },
           {
             numero: '1.8',
-            titulo: 'Trazabilidad en la gestión de inventarios',
+            titulo: 'TIC aplicadas en la gestión de inventarios',
             hash: 't_1_8',
           },
           {
@@ -87,7 +87,7 @@ export default {
           {
             numero: '1.10',
             titulo:
-              '1.10.	Administración de inventario por proveedores (Vendor Inventory Management - VMI)',
+              'Administración de inventario por proveedores (Vendor Inventory Management - VMI)',
             hash: 't_1_10',
           },
         ],
@@ -126,7 +126,7 @@ export default {
           },
           {
             numero: '2.6',
-            titulo: 'Cantidad económica de Pedido (EOQ)',
+            titulo: 'Cantidad económica de pedido (EOQ)',
             hash: 't_2_6',
           },
         ],
@@ -163,7 +163,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/121513_CF009_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -245,28 +245,30 @@ export default {
     },
     {
       referencia:
-        'Osorio, L., Vásquez, J., y Moreno, L. (2017). Ficha técnica materia prima avena en hojuelas.',
+        'Osorio, L., Vásquez, J., y Moreno, L. (2017). <em>Ficha técnica materia prima avena en hojuelas</em>.',
       link:
         'https://www.studocu.com/co/document/universidad-nacional-abierta-y-a-distancia/calculo-diferencial/formato-ficha-tecnica-avena-en-hojuelas/9387541 ',
     },
     {
       referencia:
-        'Procolombia. (2017). Organización Mundial de Aduanas (OMA) aprobó nueva clasificación arancelaria.',
+        'Procolombia. (2017). <em>Organización Mundial de Aduanas (OMA) aprobó nueva clasificación arancelaria</em>.',
       link:
         'https://procolombia.co/actualidad-internacional/organizacion-mundial-de-aduanas-oma-aprobo-nueva-clasificacion-arancelaria ',
     },
     {
-      referencia: 'Riquelme, M. (2017). ¿Qué son los costos de inventario?',
+      referencia:
+        'Riquelme, M. (2017). <em>¿Qué son los costos de inventario?</em>',
       link: 'https://www.webyempresas.com/que-son-los-costos-de-inventario/ ',
     },
     {
       referencia:
-        'Rodríguez, B. (s.f.). TIC’s aplicadas a la logística. Módulo 2.',
+        'Rodríguez, B. (s.f.). <em>TIC’s aplicadas a la logística. Módulo 2.</em>',
       link:
         'http://virtualnet2.umb.edu.co/virtualnet/archivos/open.php/133/modulo2/pdf/tecinfcom.pdf ',
     },
     {
-      referencia: 'Salazar, L. (2019). Cantidad económica de pedidos - EOQ.',
+      referencia:
+        'Salazar, L. (2019). <em>Cantidad económica de pedidos - EOQ.</em>',
       link:
         'https://www.ingenieriaindustrialonline.com/gestion-de-inventarios/cantidad-economica-de-pedidos-eoq/ ',
     },
@@ -276,15 +278,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -292,10 +294,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Gloria Lida Alzáte Suarez',
+          cargo: 'Adecuación instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Mónica María Cárdenas Carrillo',
+          cargo: 'Experta Temática',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios SENA - CIES',
+        },
+        {
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Regional Distrito Capital - Centro para la industria de la comunicación gráfica CENIGRAF',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisor Metodológico y Pedagógico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro:
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
         },
       ],
     },
@@ -303,28 +328,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -332,22 +363,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

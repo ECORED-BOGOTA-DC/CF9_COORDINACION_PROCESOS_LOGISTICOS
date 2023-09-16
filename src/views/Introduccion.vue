@@ -9,9 +9,9 @@
           i.fas.fa-info
       h1 Introducción
     
-    img.mb-4.mb-md-auto(src="@/assets/curso/temas/img-1.png" data-aos="fade-right")
+    img.mb-4.mb-md-auto(src="@/assets/curso/temas/img-1.png" data-aos="fade-right" alt="Imagen decorativa")
     .tarjeta.tarjeta-edit-2.col-xl-10.mx-auto.mb-5
-      p.mb-0 La importancia de los inventarios es alta y este es el trabajo que se realizará en el presente componente formativo como se puede observar en el siguiente video:
+      p.mb-0 La importancia de los inventarios es alta y este es el trabajo que se realizará en el presente componente formativo, como se puede observar en el siguiente video:
     
     .container-100.py-5(
       style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(233,255,254,1) 50%, rgba(255,255,255,1) 100%);"

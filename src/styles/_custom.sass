@@ -27,6 +27,7 @@
     transform: translateY(0px)
 .banner-principal
   .banner-principal__row
+    overflow: hidden
     min-height: 505px
   .banner-principal__img
     padding-bottom: 0 !important
@@ -80,11 +81,13 @@
   .crd_hover_txt--body
     width: 100%
     position: absolute
-    padding: 1.5rem
-    bottom: 0    
+    padding: 1rem
+    bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: rgba(255, 247, 230, 1)
+    h5
+      min-height: 39px
   
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
@@ -201,3 +204,11 @@
         background-color: #F6F6F6
       @media (max-width: 991px)
         width: auto
+.linea-tiempo-d
+  .linea-tiempo-d__item
+    .linea-tiempo-d__item__content
+      .linea-tiempo-d__item__content__title
+        height: auto
+        min-height: 40px
+        padding-top: .3rem
+        padding-bottom: .3rem
