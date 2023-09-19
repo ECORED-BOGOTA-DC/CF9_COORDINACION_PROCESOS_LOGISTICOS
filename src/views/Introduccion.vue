@@ -3,14 +3,14 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
     
     img.mb-4.mb-md-auto(src="@/assets/curso/temas/img-1.png" data-aos="fade-right" alt="Imagen decorativa")
-    .tarjeta.tarjeta-edit-2.col-xl-10.mx-auto.mb-5
+    .tarjeta.tarjeta-edit-2.col-xl-10.mx-auto.mb-5(data-aos="fade-right")
       p.mb-0 La importancia de los inventarios es alta y este es el trabajo que se realizará en el presente componente formativo, como se puede observar en el siguiente video:
     
     .container-100.py-5(

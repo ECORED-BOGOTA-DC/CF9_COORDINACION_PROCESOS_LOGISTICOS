@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Costos de inventarios
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-1.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-1.jpg')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 Los costos de inventario son aquellos que están relacionados con el aprovisionamiento, almacenamiento y mantenimiento de las mercancías en un determinado periodo de tiempo; además, hay que tener en cuenta los costos que se agregan como seguros, pólizas, intereses, etc. 
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_1 2.1 Clases de costos
     
     .d-flex.flex-wrap.mb-5
@@ -57,7 +57,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_2 2.2 Costos de pedidos
     
     p.mb-5(data-aos="fade-right") La necesidad de reabastecimiento surge por la inexistencia de un producto que requiere la organización para su operación y cumplir con los requerimientos de los clientes, la cual implica una serie de actividades y de interacción interna entre áreas, compras, logística, almacenamiento y producción; así como una interacción externa con proveedores para llevar a cabo la ejecución de un pedido, además, se requiere contar con personal capacitado que tenga la facultad de tomar decisiones en cuanto a los niveles óptimos de stock y establecer los puntos de pedidos que permita una optimización de los gastos.
@@ -77,7 +77,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_3 2.3 Costos de mantenimiento de inventarios
     
     p.mb-5(data-aos="fade-right") El costo por mantenimiento de inventarios se da en las diferentes etapas del proceso, a saber:
@@ -98,7 +98,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_4 2.4 Costos de falta de existencias
     
     img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-right" alt="Imagen decorativa")
@@ -133,7 +133,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_5 2.5 Sistema ABC de inventarios
     
     p.mb-5(data-aos="fade-right") En la gestión de inventarios, un método que ayuda a controlar las existencias es la distribución de acuerdo con la importancia, donde los productos se clasifican en categorías A, B y C dependiendo de la relevancia que tengan en los criterios previamente definidos por la organización y que pueden ser rotación, precios, ventas, tiempo de producción, vida útil, etc.
@@ -158,7 +158,7 @@
           .tarjeta.tarjeta-edit-t2( x="25%" y="80%" numero="+")
             h3(style="color: #35ACA9") Categoría A
             p Se encuentran los bienes o productos con mayor importancia para la empresa, los que tienen una mayor rotación, son el 20 % del total de la cantidad de inventarios, pero que generan el 80 % de las utilidades de la organización, estos requieren controles estrictos y datos precisos.
-            .cajon.color-acento-contenido.p-4(data-aos="fade-right" style="background-color: #DDF8F7")
+            .cajon.color-acento-contenido.p-4(style="background-color: #DDF8F7")
               p.mb-0 A esta categoría, por ser la más importante debe tener una especial atención, mayor inversión en recursos para ejercer controles de inventarios periódicos de forma frecuente, ya que si se presenta una escasez de estos productos traerán grandes pérdidas para la empresa.
           .tarjeta.tarjeta-edit-t2( x="50.5%" y="80%" numero="+")
             h3(style="color: #1A0F91") Categoría B
@@ -190,17 +190,17 @@
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_6 2.6 Cantidad económica de pedido (EOQ)
     
     .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-17.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-17.jpg')})`}" data-aos="fade-right"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 La cantidad económica de pedido (conocida en inglés como <em>Economic Order Quantity</em> o por la sigla EOQ); según Salazar (2019), <b>“es el modelo fundamental para el control de inventarios, ya que permite minimizar costos por mantenimiento del producto”</b>. Para aplicar este método es necesario conocer la demanda del producto, la cual debe ser constante y se basa en determinar el momento exacto en el que el inventario llegue a un nivel específico en el cual se debe reabastecer.
 
-    p.mb-5 El modelo EOQ se basa en los siguientes aspectos:
+    p.mb-5(data-aos="fade-right") El modelo EOQ se basa en los siguientes aspectos:
 
     .d-flex.flex-wrap.mb-5
       .col-12.col-lg-8.pe-lg-4.order-2.order-lg-1

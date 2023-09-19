@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptos generales
     
-    .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 En los inventarios se tienen muchos términos y conceptos relevantes para varias empresas, pero en el mundo empresarial se requiere de un marco general que se trabajará a continuación. Hay que aclarar que cada empresa en detalle puede trabajar más conceptos, así se tiene que: 
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_2 1.1 Clasificación de las mercancías
     
     .d-flex.flex-wrap.mb-5
@@ -43,7 +43,7 @@
                 p.mb-0 Es aquella cuya vida útil es de 1 a 7 días; como los alimentos: verduras, lácteos y frutas.
 
           .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
-            .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt(data-aos="flip-right")
               .crd_hover_txt--img
                 figure
                   img(src="@/assets/curso/temas/tema1/tjs-2.png" alt="Imagen decorativa Mercancía no perecedera")
@@ -52,7 +52,7 @@
                 p.mb-0 Mercancía con una vida útil mayor, pueden ser alimentos empacados al vacío o enlatados. 
 
           .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
-            .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt(data-aos="flip-right")
               .crd_hover_txt--img
                 figure
                   img(src="@/assets/curso/temas/tema1/tjs-3.png" alt="Imagen decorativa Mercancía frágil")
@@ -61,7 +61,7 @@
                 p.mb-0 Productos que pueden sufrir daños y que requieren una manipulación especial en su transporte. 
           
           .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
-            .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt(data-aos="flip-up")
               .crd_hover_txt--img
                 figure
                   img(src="@/assets/curso/temas/tema1/tjs-4.png" alt="Imagen decorativa Mercancía peligrosa")
@@ -80,7 +80,7 @@
     
     p.mb-5(data-aos="fade-right") Por su parte, la Organización Mundial de Aduanas las organizó por medio del SA (Sistema Armonizado) de Designación y Codificación de Mercancía así: 
 
-    h4 SA (Sistema Armonizado)
+    h4(data-aos="fade-right") SA (Sistema Armonizado)
 
     .d-flex.flex-wrap.mb-5
       img.col-lg-5.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-3.png" style="max-width: 506px" data-aos="fade-right" alt="Imagen decorativa")
@@ -110,7 +110,7 @@
     p.mb-5(data-aos="fade-right") Es utilizado por más de 200 países y economías como base de sus aranceles de aduanas y para la recopilación de estadísticas del comercio internacional. Más del 98% de la mercancía en el comercio internacional se clasifica en términos del SA. Contribuye a la armonización de los procedimientos aduaneros y comerciales y el intercambio de datos comerciales no documentados en relación con tales procedimientos, reduciendo así los costos relacionados con el comercio internacional.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto.mb-5
-      .tarjeta-avatar-b__img
+      .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/temas/tema1/img-6.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
@@ -119,7 +119,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_2 1.2 Clasificación de inventarios
     
     img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-8.png" data-aos="fade-right" alt="Imagen decorativa")
@@ -185,7 +185,7 @@
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_3 1.3 Políticas de inventarios
 
     .d-flex.flex-wrap.mb-5
@@ -217,9 +217,9 @@
 
     .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-16.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-16.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Además, se debe lograr una eficiente articulación de toda la cadena de suministro, de forma tal que los tiempos de respuesta de cada área de la organización no afecten el funcionamiento ni generen retrasos en la operación, desde que se inicia el proceso con las requisiciones de materias primas o insumos, hasta que sale el producto final con destino a los clientes; es decir, el área de compras debe hacer los pedidos a tiempo para que los insumos estén disponibles cuando los requiera producción y que el producto esté terminado en el tiempo pactado con el cliente. 
     
     p.mb-5(data-aos="fade-right") Para determinar las políticas de inventarios se debe tener en cuenta lo descrito en la figura 1.
@@ -233,7 +233,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_4 1.4 Funciones de los inventarios
     
     p.mb-5(data-aos="fade-right") Los inventarios en una organización son la referencia en todas las etapas de operación, desde el proceso como materias primas hasta que terminan como productos terminados que serán entregados a los clientes; por tanto, requieren una atención importante, ya que de acuerdo con los tiempos de demora en la cadena de suministros se definen las existencias y su reabastecimiento, porque una inadecuada administración puede generar pérdidas que afectan en gran medida las finanzas en una empresa. 
@@ -266,14 +266,14 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_5 1.5 Ficha técnica del producto
     
     .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-20.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-20.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 La ficha técnica de un producto o servicio es un documento en el que se especifican todas sus características, como composición, características físicas y técnicas, recomendaciones, forma de almacenamiento, cuidados, formas de uso y otros datos importantes; lo anterior permite estandarizar el producto dando una presentación clara a los usuarios de lo que están comprando para determinar si cumple con sus requerimientos o necesidades.
 
     p.mb-5(data-aos="fade-right") Este documento debe ser visible, de fácil lectura, con la información precisa y actualizada, teniendo en cuenta el mercado al que va dirigido; en el mercado hay fichas técnicas de productos químicos, medicamentos, alimentos, etc.
@@ -288,17 +288,17 @@
       .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
         span.number-tj 01
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-1.svg" style="max-width: 93px" alt="Imagen decorativa")
-        p.text-center.mb-0(data-aos="fade-left") <b>Identificación del producto:</b> nombre comercial, técnico o científico.
+        p.text-center.mb-0(data-aos="fade-right") <b>Identificación del producto:</b> nombre comercial, técnico o científico.
       
       .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
         span.number-tj 02
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-2.svg" style="max-width: 93px" alt="Imagen decorativa")
-        p.text-center.mb-0(data-aos="fade-left") <b>Información comercial:</b> usos, empaque, presentación, variedades, embalaje, unidades por caja.
+        p.text-center.mb-0(data-aos="flip-right") <b>Información comercial:</b> usos, empaque, presentación, variedades, embalaje, unidades por caja.
       
       .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
         span.number-tj 03
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-3.svg" style="max-width: 93px" alt="Imagen decorativa")
-        p.text-center.mb-0(data-aos="fade-left") <b>Información técnica:</b> características físicas y químicas, densidad, composición.
+        p.text-center.mb-0(data-aos="flip-left") <b>Información técnica:</b> características físicas y químicas, densidad, composición.
       
       .col-xl.col-lg-3.col-md-5.tarjeta-edit-1
         span.number-tj 04
@@ -308,7 +308,7 @@
     p.mb-5(data-aos="fade-right") Algunos ejemplos de fichas técnicas son lo que se hacen para los alimentos o las materias primas, tal como lo puedes ver en el siguiente recurso:
 
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(90deg, rgba(26,15,145,1) 26%, rgba(58,180,177,1) 100%);")
-      .row.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center(data-aos="flip-up")
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-21.svg" alt="Imagen decorativa")
         .col
@@ -323,7 +323,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_6 1.6 Gestión de inventarios
     
     p.mb-5(data-aos="fade-right") La gestión de inventarios es un pilar para tener en cuenta en todas las empresas, tal como se puede ver en el siguiente recurso.
@@ -343,22 +343,22 @@
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_7 1.7 Trazabilidad en la gestión de inventarios
     
     .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-23.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-23.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0(data-aos="fade-left") <b>“La trazabilidad es el seguimiento que se le hace a todos los movimientos de un producto durante todas las etapas del proceso productivo” EAE Business School (2020)</b>, así, es la habilidad de trazar la ruta desde que ingresan los insumos o materias primas, durante el proceso productivo, el producto terminado y, por último, hasta la entrega final al consumidor.
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
+        p.mb-0 <b>“La trazabilidad es el seguimiento que se le hace a todos los movimientos de un producto durante todas las etapas del proceso productivo” EAE Business School (2020)</b>, así, es la habilidad de trazar la ruta desde que ingresan los insumos o materias primas, durante el proceso productivo, el producto terminado y, por último, hasta la entrega final al consumidor.
 
     .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
       img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 136px;" data-aos="fade-right" alt="Imagen decorativa")
-      .col-md.ps-md-4
+      .col-md.ps-md-4(data-aos="fade-left")
         p.mb-0 Según la Organización Internacional para la Estandarización (ISO), la trazabilidad es <b>“la propiedad que dispone el resultado de un valor estándar, que puede vincularse con referencias específicas mediante continuas comparaciones”</b>; lo cual se traduce a un conjunto de medidas, acciones y procesos que permiten el rastreo del producto en todas sus etapas de «vida».
 
-    p.mb-5 Estos rastreos pueden ser:
+    p.mb-5(data-aos="fade-right") Estos rastreos pueden ser:
 
     img.mb-5.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img-25.svg" data-aos="fade-right" alt="Imagen decorativa")
     img.mb-5.d-none.d-md-flex.d-lg-none(src="@/assets/curso/temas/tema1/img-25-md.svg" data-aos="fade-right" alt="Imagen decorativa")
@@ -377,7 +377,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_8 1.8 TIC aplicadas en la gestión de inventarios
     
     .d-flex.flex-wrap.mb-5
@@ -387,7 +387,7 @@
         .cajon.color-primario.p-4.mb-3(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0 Las ventajas de aplicar las TIC en la gestión de los inventarios son diferenciales, debido a que permiten automatizar todo tipo de procesos teniendo registros en tiempo real, lo que permite monitorear las tareas y aumentar la productividad del personal, ya que agiliza las actividades operativas, centraliza la información de la cadena de suministros, reduce la probabilidad de errores y se tiene precisión en la información en tiempo real.
     
-    p.mb-5 Las principales TIC aplicadas a la logística interna, son: 
+    p.mb-5(data-aos="fade-right") Las principales TIC aplicadas a la logística interna, son: 
 
     .d-flex.flex-wrap.mb-5
       .col-xl-4.col-md-6.col-12.pe-md-4
@@ -430,7 +430,7 @@
         p.mb-0(data-aos="fade-left") Estos conceptos y otros tantos están a la orden del día, <b>“al igual que la tecnología aplicada a la vida diaria en la logística se relacionan varios referentes y cada día existirán nuevas herramientas” (Becerra, Pedroza, Pinilla y Vargas, 2017)</b>; es por eso que siempre se recomienda a las empresas validar cuál es la mejor opción según la necesidad requerida. Por tal motivo, el aprendiz debe manejar la mayor cantidad de conceptos posibles, por eso se invita a leer el siguiente documento que explica los conceptos anteriores y lo relaciona con unos novedosos:
 
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(90deg, rgba(26,15,145,1) 26%, rgba(58,180,177,1) 100%);")
-      .row.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center(data-aos="flip-up")
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/img-29.svg" alt="Imagen decorativa")
         .col
@@ -445,7 +445,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_9 1.9 Cadena de suministros e inventarios
     
     p.mb-5(data-aos="fade-right") Como se ha revisado en varios aspectos de la cadena logística, es fundamental hacer uso de una planeación integral y una cadena de suministros, como se ve en el siguiente recurso.
@@ -504,7 +504,7 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_10 1.10 Administración de inventario por proveedores (<em>Vendor Inventory Management</em> - VMI)
     
     .d-flex.flex-wrap.mb-5
@@ -518,7 +518,7 @@
 
     .row.justify-content-center.mb-4
       .col-xl.col-lg-4.col-md-6.col-11.mb-4
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="fade-right")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tjs-6.png" alt="Imagen decorativa Confianza")
@@ -527,7 +527,7 @@
             p.mb-0 Debe existir confianza y acuerdos en la información que se da entre proveedor y cliente.
 
       .col-xl.col-lg-4.col-md-6.col-11.mb-4
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="flip-right")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tjs-7.png" alt="Imagen decorativa Integración")
@@ -545,7 +545,7 @@
             p.mb-0 Para que la ejecución y la planificación del modelo VMI cumpla con su objetivo, la información debe ser oportuna y confiable, es por esto que todas las personas que integran este proceso deben estar capacitadas y coordinadas, dejando registros actualizados y correctos de la información.
       
       .col-xl.col-lg-4.col-md-6.col-11.mb-4
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="fade-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/tjs-9.png" alt="Imagen decorativa Flexibilidad")
@@ -553,8 +553,6 @@
             h5.mb-3.text-center Flexibilidad
             p.mb-0 Un modelo VMI debe ser flexible, ya que la demanda puede cambiar en cualquier momento debido a diferentes factores externos que no siempre son controlables ni predecibles; por tanto, el modelo debe contemplar diversas alternativas que brinden una solución oportuna a los cambios inesperados para no afectar los requerimientos de la demanda.
             
-
-
 
 
 </template>

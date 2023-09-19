@@ -4,11 +4,11 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
             img(src="@/assets/template/arrastrar.svg", alt="imagen decorativa")
-      .col-12.col-md-8.col-lg-9
+      .col-12.col-md-8.col-lg-9(data-aos="fade-left")
         .titulo-segundo
           h2 Modelo logístico VMI
         p.mb-4 Identificar elementos clave para implementar con éxito el modelo VMI, optimizando control de inventarios y mejorando eficiencia operativa mediante sincronización de datos y colaboración con proveedores.
