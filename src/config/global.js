@@ -245,9 +245,9 @@ export default {
     },
     {
       referencia:
-        'Osorio, L., Vásquez, J., y Moreno, L. (2017). <em>Ficha técnica materia prima avena en hojuelas</em>.',
+        'Formato único de alimentos registros sanitarios o permiso sanitario o notificación sanitaria y tramites asociados (resolución 2674 de 2013, resolución 3168 de 2015).',
       link:
-        'https://www.studocu.com/co/document/universidad-nacional-abierta-y-a-distancia/calculo-diferencial/formato-ficha-tecnica-avena-en-hojuelas/9387541 ',
+        'https://app.invima.gov.co/blog_invima/blog_alimentos/admin/uploads/tutoriales/info3.html#/0/16',
     },
     {
       referencia:

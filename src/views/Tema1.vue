@@ -314,10 +314,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
-              h3.mb-1 Ficha técnica materia prima avena en hojuelas
-              p.text-small Osorio, Vásquez y Moreno (2017).  Archivo PDF que puede ver en el siguiente enlace:
+              h3.mb-1 Ficha técnica de alimentos
+              p.text-small Formato único de alimentos registros sanitarios o permiso sanitario o notificación sanitaria y tramites asociados (resolución 2674 de 2013, resolución 3168 de 2015). Archivo Excel que puede ver en el siguiente enlace:
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.studocu.com/co/document/universidad-nacional-abierta-y-a-distancia/calculo-diferencial/formato-ficha-tecnica-avena-en-hojuelas/9387541" target="_blank" style="background-color: #E6B046")
+              a.boton.color-acento-botones(href="https://app.invima.gov.co/blog_invima/blog_alimentos/admin/uploads/tutoriales/info3.html#/0/16" target="_blank" style="background-color: #E6B046")
                 span Ir a página
                 i.fas.fa-link
 
