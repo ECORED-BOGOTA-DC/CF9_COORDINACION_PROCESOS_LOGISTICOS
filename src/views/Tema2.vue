@@ -15,7 +15,6 @@
         p.mb-0 Los costos de inventario son aquellos que están relacionados con el aprovisionamiento, almacenamiento y mantenimiento de las mercancías en un determinado periodo de tiempo; además, hay que tener en cuenta los costos que se agregan como seguros, pólizas, intereses, etc. 
     
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_1 2.1 Clases de costos
     
@@ -56,7 +55,6 @@
         p(data-aos="fade-left") Costos en las pólizas de seguro para cubrir cualquier eventualidad que se pueda presentar como hurtos y accidentes. 
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_2 2.2 Costos de pedidos
     
@@ -76,7 +74,6 @@
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-7.svg" style="max-width: 820px;" data-aos="fade-left" alt="Muestra diagrama de etapas de pedido descritas en la parte inferior de la imagen ")
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_3 2.3 Costos de mantenimiento de inventarios
     
@@ -97,7 +94,6 @@
       p.mb-0 En cada una de las etapas del proceso, o cualquiera que sea la naturaleza de las existencias, se generan costos por movilización del inventario, ya sea manual o con maquinaria: horas, hombre que se requieren para el manejo, así como la verificación y control de los bienes, las zonas de almacenamiento y cómo deben estar acondicionadas para mantener estos inventarios, si deben contar con especificaciones de temperatura, iluminación y estantería para su organización. 
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_4 2.4 Costos de falta de existencias
     
@@ -132,7 +128,6 @@
         p.fw-bold.mb-0(data-aos="fade-left") Cuando una situación de estas se presenta, es necesario analizar y detectar los errores que se pueden presentar en la cadena de suministros para diseñar o reorganizar las políticas de inventarios que se están manejando y mejorar la planificación de los inventarios.
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_5 2.5 Sistema ABC de inventarios
     
@@ -150,7 +145,7 @@
       style="background-size: contain; background-repeat: no-repeat; background-position: center"
     )
       .col-xl-7.mx-auto(data-aos="fade-left")
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-secundario
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img-14.png' alt="Imagen decorativa")
@@ -189,7 +184,6 @@
       p.mb-0 Las clasificaciones que se pueden determinar se pueden dar por la rotación de los productos, por costos unitarios, por utilización o valor.
     
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_6 2.6 Cantidad económica de pedido (EOQ)
     

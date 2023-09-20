@@ -15,7 +15,6 @@
         p.mb-0 En los inventarios se tienen muchos términos y conceptos relevantes para varias empresas, pero en el mundo empresarial se requiere de un marco general que se trabajará a continuación. Hay que aclarar que cada empresa en detalle puede trabajar más conceptos, así se tiene que: 
     
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_2 1.1 Clasificación de las mercancías
     
@@ -80,7 +79,7 @@
     
     p.mb-5(data-aos="fade-right") Por su parte, la Organización Mundial de Aduanas las organizó por medio del SA (Sistema Armonizado) de Designación y Codificación de Mercancía así: 
 
-    h4(data-aos="fade-right") SA (Sistema Armonizado)
+    .h4.mb-5(data-aos="fade-right") SA (Sistema Armonizado)
 
     .d-flex.flex-wrap.mb-5
       img.col-lg-5.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema1/img-3.png" style="max-width: 506px" data-aos="fade-right" alt="Imagen decorativa")
@@ -118,7 +117,6 @@
           img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 135px;" data-aos="fade-left" alt="Imagen decorativa")
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_2 1.2 Clasificación de inventarios
     
@@ -184,7 +182,6 @@
       p.mb-0 De acuerdo con el tipo de mercancía que se maneje, las organizaciones deben contar con la infraestructura, maquinaria y equipos adecuados que garanticen su calidad, almacenamiento y manejo, además, el personal capacitado para su manipulación.
     
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_3 1.3 Políticas de inventarios
 
@@ -232,7 +229,6 @@
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 610px;" data-aos="fade-left" alt="Imagen muestra políticas de inventario: -Identificar el problema y conocer entorno de necesidades. - Analizar alternativas de políticas. -Elegir políticas. -Implementar políticas. -Comunicar las políticas a todo el personal. -Evaluar las politicas")
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_4 1.4 Funciones de los inventarios
     
@@ -250,9 +246,9 @@
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
             p.mb-0(data-aos="fade-left") Garantizar la disponibilidad de la mercancía ofertada, cumpliendo con los requerimientos de entrega en los tiempos pactados y con productos de calidad para satisfacer las necesidades de los clientes.
     
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-4
       .col-12.col-lg-8.pe-lg-4.order-2.order-lg-1
-        ul.lista-ul--separador
+        ul.lista-ul--separador.mb-0
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
             p.mb-0(data-aos="fade-left") Tener control de los inventarios para así detectar los requerimientos reales de las compras de las materias primas o insumos necesarios para la operación de la organización, evitando retrasos y planificando así compras en lotes o volúmenes para minimizar costos.
@@ -265,7 +261,6 @@
       img.col-lg-4.mb-4.mb-lg-auto.order-1.order-lg-2.mx-auto(src="@/assets/curso/temas/tema1/img-19.svg" style="max-width: 400px" data-aos="fade-left" alt="Imagen decorativa")
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_5 1.5 Ficha técnica del producto
     
@@ -278,10 +273,10 @@
 
     p.mb-5(data-aos="fade-right") Este documento debe ser visible, de fácil lectura, con la información precisa y actualizada, teniendo en cuenta el mercado al que va dirigido; en el mercado hay fichas técnicas de productos químicos, medicamentos, alimentos, etc.
 
-    .cajon.color-primario.p-4.mb-3(data-aos="fade-right" style="background-color: #E0F4FE")
+    .cajon.color-primario.p-4.mb-4(data-aos="fade-right" style="background-color: #E0F4FE")
       p.mb-0 Las fichas técnicas, por lo general, están representadas por cuadros o viñetas que contienen la siguiente información:
     
-    .d-flex.flex-wrap.justify-content-center.mb-5.container-100.py-5(
+    .d-flex.flex-wrap.justify-content-center.mb-4.container-100.py-4(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.png')})`}"
       style="background-size: contain; background-repeat: no-repeat; background-position: center"
     )
@@ -322,7 +317,6 @@
                 i.fas.fa-link
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_6 1.6 Gestión de inventarios
     
@@ -342,7 +336,6 @@
             p.mb-0 Uno de los principales objetivos de la gestión de inventarios es la determinación de los métodos para el registro de todos los movimientos de la mercancía (entradas - salidas) dentro del proceso, registro de las compras, pérdidas y existencias.
     
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_7 1.7 Trazabilidad en la gestión de inventarios
     
@@ -376,7 +369,6 @@
     p(data-aos="fade-right") La trazabilidad de un producto permite conocer todo lo que pasa con la mercancía desde la llegada hasta su despacho; ubicación, destino y características, lo que permite detectar fallas en el proceso.
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_8 1.8 TIC aplicadas en la gestión de inventarios
     
@@ -444,7 +436,6 @@
                 i.fas.fa-link
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_9 1.9 Cadena de suministros e inventarios
     
@@ -503,7 +494,6 @@
       p.mb-0 Una correcta articulación de la cadena de suministros permite determinar tiempos de entrega para cumplir y tener clientes satisfechos.
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_10 1.10 Administración de inventario por proveedores (<em>Vendor Inventory Management</em> - VMI)
     
@@ -553,8 +543,6 @@
             h5.mb-3.text-center Flexibilidad
             p.mb-0 Un modelo VMI debe ser flexible, ya que la demanda puede cambiar en cualquier momento debido a diferentes factores externos que no siempre son controlables ni predecibles; por tanto, el modelo debe contemplar diversas alternativas que brinden una solución oportuna a los cambios inesperados para no afectar los requerimientos de la demanda.
             
-
-
 </template>
 
 <script>
