@@ -386,13 +386,13 @@
         ul.lista-ul--separador
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") ERP (Enterprise Resource Planning).
+            p.mb-0(data-aos="fade-left") ERP (#[em Enterprise Resource Planning]).
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") WMS (Warehouse Management System).
+            p.mb-0(data-aos="fade-left") WMS (#[em Warehouse Management System]).
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") LMS (Labor Management System).
+            p.mb-0(data-aos="fade-left") LMS (#[em Labor Management System]).
       .col-xl-4.col-md-6.col-12.pe-md-4
         ul.lista-ul--separador
           li.d-flex.align-items-start.pb-2.mb-2
@@ -400,10 +400,10 @@
             p.mb-0(data-aos="fade-left") Pick to Light-Voice.
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") OMS (Order Management System).
+            p.mb-0(data-aos="fade-left") OMS (#[em Order Management System]).
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") YMS (Yard Management System).
+            p.mb-0(data-aos="fade-left") YMS (#[em Yard Management System]).
       .col-xl-4.col-md-6.col-12.pe-md-4
         ul.lista-ul--separador
           li.d-flex.align-items-start.pb-2.mb-2
@@ -411,10 +411,10 @@
             p.mb-0(data-aos="fade-left") Código de barras.
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") RFID (Radio Frequency Identification).
+            p.mb-0(data-aos="fade-left") RFID (#[em Radio Frequency Identification]).
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") SCE (Supply Chain Execution).
+            p.mb-0(data-aos="fade-left") SCE (#[em Supply Chain Execution]).
 
     .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
       img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 136px;" data-aos="fade-right" alt="Imagen decorativa")
