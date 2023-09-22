@@ -226,7 +226,7 @@
         h5 Figura 1.
         span Políticas de inventario
       figure
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 610px;" data-aos="fade-left" alt="Imagen muestra políticas de inventario: -Identificar el problema y conocer entorno de necesidades. - Analizar alternativas de políticas. -Elegir políticas. -Implementar políticas. -Comunicar las políticas a todo el personal. -Evaluar las politicas")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 610px;" data-aos="fade-left" alt="Imagen que muestra las políticas de inventario, las cuales son:<br>-Identificar el problema y conocer entorno de necesidades.<br>- Analizar alternativas de políticas.<br>-Elegir políticas.<br>-Implementar políticas.<br>-Comunicar las políticas a todo el personal.<br>-Evaluar las politicas")
 
     Separador 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -365,7 +365,7 @@
         h5 Figura 2.
         span Trazabilidad de un producto
       figure
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 820px;" data-aos="fade-left" alt="Muestra secuencia de la trazabilidad de un producto que se describe debajo del a imagen")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 820px;" data-aos="fade-left" alt="Imagen que muestra secuencia de la trazabilidad de un producto que se describe debajo de la imagen")
     p(data-aos="fade-right") La trazabilidad de un producto permite conocer todo lo que pasa con la mercancía desde la llegada hasta su despacho; ubicación, destino y características, lo que permite detectar fallas en el proceso.
 
     Separador 
@@ -488,7 +488,7 @@
           h5 Figura 3.
           span Cadena de suministros
         figure
-          img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-34.svg" style="max-width: 820px;" data-aos="fade-left" alt="Muestra cadena de suministros: -Materias primas -Producción -Transporte y logística -Venta -Almacenamiento -Agencias o sucursales -Facturación -Distribución y entregas")
+          img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-34.svg" style="max-width: 820px;" data-aos="fade-left" alt="Imagen que muestra cadena de suministros que consta de:<br>-Materias primas<br>-Producción<br>-Transporte y logística<br>-Agencias o sucursales<br>-Almacenamiento<br>-Venta<br>-Facturación<br>-Distribución y entregas")
 
     .cajon.color-primario.p-4(data-aos="fade-right" style="background-color: #E0F4FE")
       p.mb-0 Una correcta articulación de la cadena de suministros permite determinar tiempos de entrega para cumplir y tener clientes satisfechos.

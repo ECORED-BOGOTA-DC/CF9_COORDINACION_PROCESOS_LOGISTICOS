@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra síntesis de control de inventarios donde define los principales conceptos que permiten clasificar mercancías, gestionar políticas de inventarios para garantizar la trazabilidad en la gestión de inventarios.  Permite determinar los costos de los inventarios para determinar los diferentes costos.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que muestra la síntesis de control de inventarios donde define los principales conceptos que permiten clasificar mercancías, gestionar políticas de inventarios para garantizar la trazabilidad en la gestión de inventarios.  Permite determinar los costos de los inventarios para determinar los diferentes costos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
