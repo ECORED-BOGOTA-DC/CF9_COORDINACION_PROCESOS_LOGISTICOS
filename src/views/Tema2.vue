@@ -58,7 +58,7 @@
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_2 2.2 Costos de pedidos
     
-    p.mb-5(data-aos="fade-right") La necesidad de reabastecimiento surge por la inexistencia de un producto que requiere la organización para su operación y cumplir con los requerimientos de los clientes, la cual implica una serie de actividades y de interacción interna entre áreas, compras, logística, almacenamiento y producción; así como una interacción externa con proveedores para llevar a cabo la ejecución de un pedido, además, se requiere contar con personal capacitado que tenga la facultad de tomar decisiones en cuanto a los niveles óptimos de stock y establecer los puntos de pedidos que permita una optimización de los gastos.
+    p.mb-5(data-aos="fade-right") La necesidad de reabastecimiento surge por la inexistencia de un producto que requiere la organización para su operación y cumplir con los requerimientos de los clientes, la cual implica una serie de actividades y de interacción interna entre áreas, compras, logística, almacenamiento y producción; así como una interacción externa con proveedores para llevar a cabo la ejecución de un pedido, además, se requiere contar con personal capacitado que tenga la facultad de tomar decisiones en cuanto a los niveles óptimos de <i>stock</i> y establecer los puntos de pedidos que permita una optimización de los gastos.
 
     .d-flex.flex-wrap.mb-5
       img.col-lg-4.mb-4.mb-lg-auto.mx-auto(src="@/assets/curso/temas/tema2/img-6.png" style="max-width: 400px" data-aos="fade-right" alt="Imagen decorativa")
@@ -99,9 +99,9 @@
     
     img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema2/img-9.png" data-aos="fade-right" alt="Imagen decorativa")
     .tarjeta.tarjeta-edit-2.col-xl-10.mx-auto.mb-5
-      p.mb-0 Los costos de falta de existencias son aquellos que se dan cuando se recibe un requerimiento por parte de los clientes y no se tienen las existencias del producto en bodega para cumplir con la demanda; esto recibe el nombre de rotura de stock. La falta de existencias también se puede dar en los insumos o materias primas, que al no tenerlas se genera un retraso en los procesos productivos de la organización.
+      p.mb-0 Los costos de falta de existencias son aquellos que se dan cuando se recibe un requerimiento por parte de los clientes y no se tienen las existencias del producto en bodega para cumplir con la demanda; esto recibe el nombre de rotura de <i>stock</i>. La falta de existencias también se puede dar en los insumos o materias primas, que al no tenerlas se genera un retraso en los procesos productivos de la organización.
     
-    p.mb-5.text-center Existen dos clases de costos de rotura de stock: 
+    p.mb-5.text-center Existen dos clases de costos de rotura de <i>stock</i>: 
 
     .d-flex.flex-wrap.mb-5
       .col-lg-6.pe-lg-3.mb-4.d-flex

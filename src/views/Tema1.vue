@@ -16,7 +16,7 @@
     
     Separador 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2#t_1_2 1.1 Clasificación de las mercancías
+      h2#t_1_1 1.1 Clasificación de las mercancías
     
     .d-flex.flex-wrap.mb-5
       img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-2.svg" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")
@@ -106,7 +106,7 @@
         .cajon.color-primario.p-4.mb-3(data-aos="fade-right" style="background-color: #E0F4FE")
           p.mb-0 Contiene alrededor de 5.000 grupos de productos; cada uno identificado por un código de seis dígitos, dispuestos en una estructura legal y lógica, y es apoyado por reglas bien definidas para lograr una clasificación uniforme.
     
-    p.mb-5(data-aos="fade-right") Es utilizado por más de 200 países y economías como base de sus aranceles de aduanas y para la recopilación de estadísticas del comercio internacional. Más del 98% de la mercancía en el comercio internacional se clasifica en términos del SA. Contribuye a la armonización de los procedimientos aduaneros y comerciales y el intercambio de datos comerciales no documentados en relación con tales procedimientos, reduciendo así los costos relacionados con el comercio internacional.
+    p.mb-5(data-aos="fade-right") Es utilizado por más de 200 países y economías como base de sus aranceles de aduanas y para la recopilación de estadísticas del comercio internacional. Más del 98 % de la mercancía en el comercio internacional se clasifica en términos del SA. Contribuye a la armonización de los procedimientos aduaneros y comerciales y el intercambio de datos comerciales no documentados en relación con tales procedimientos, reduciendo así los costos relacionados con el comercio internacional.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto.mb-5
       .tarjeta-avatar-b__img(data-aos="fade-right")
@@ -143,7 +143,7 @@
             .number(data-number="02")
               h4.ps-4 Inventarios según la logística
               p.ps-4.mb-4 <b style="color: #35ACA9">Inventario de anticipación o previsión:</b> se tienen con anticipación cuando se conoce o se planean épocas de mayor demanda para cubrir una necesidad futura definida, como temporadas o promociones comerciales.
-              p.ps-4.mb-4 <b style="color: #35ACA9">Inventarios de lote o de tamaño de lote:</b> estos se piden en tamaño de lote, ya que es más económico hacerlo, así que pedirlo en menores cantidades o cuando sea necesario satisfacer la demanda.
+              p.ps-4.mb-4 <b style="color: #35ACA9">Inventarios de lote o de tamaño de lote:</b> estos se piden en tamaño de lote, ya que es más económico hacerlo así, que pedirlo en menores cantidades o cuando sea necesario satisfacer la demanda.
               p.ps-4.mb-4 <b style="color: #35ACA9">Inventarios en consignación:</b> son aquellos bienes que un consignador entrega para ser vendidos a otra empresa, pero el título de propiedad lo conserva el consignador.
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-4
@@ -162,7 +162,7 @@
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.ps-lg-4
             .number(data-number="04")
               h4.ps-4 Inventarios según la forma
-              p.ps-4.mb-4 <b style="color: #35ACA9">Inventario de materia prima:</b> mide el stock de existencias de los insumos o materias primas que requiere la organización en su operación.
+              p.ps-4.mb-4 <b style="color: #35ACA9">Inventario de materia prima:</b> mide el <i>stock</i> de existencias de los insumos o materias primas que requiere la organización en su operación.
               p.ps-4.mb-4 <b style="color: #35ACA9">Inventarios en procesos:</b> son activos que se encuentran en el proceso de fabricación o transformación.
               p.ps-4.mb-4 <b style="color: #35ACA9">Inventarios de productos terminados:</b> este inventario se realiza a los productos o mercancías fabricados que están listos para la comercialización. 
               p.ps-4.mb-4 <b style="color: #35ACA9">Inventario en tránsito:</b> se denomina inventario en tránsito cuando la mercancía o productos están en camino de un lugar a otro, por ejemplo, sale de la bodega del producto terminado para el sitio de comercialización, en ese momento el inventario está en movimiento. 
@@ -241,7 +241,7 @@
         ul.lista-ul--separador
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-            p.mb-0(data-aos="fade-left") Disminuir costos por pérdidas en las diferentes etapas del proceso, como paradas en la producción por escasez de la materia prima requerida para la operación, lo que conlleva a tiempo perdido tanto para maquinaria como para la mano de obra, pérdidas en las ventas por no tener el producto disponible cuando el cliente lo requiere lo que puede llevar a clientes insatisfechos que se van para la competencia dejando mala imagen de la organización.
+            p.mb-0(data-aos="fade-left") Disminuir costos por pérdidas en las diferentes etapas del proceso, como paradas en la producción por escasez de la materia prima requerida para la operación, lo que conlleva tiempo perdido tanto para maquinaria como para la mano de obra, pérdidas en las ventas por no tener el producto disponible cuando el cliente lo requiere lo que puede llevar a clientes insatisfechos que se van para la competencia dejando mala imagen de la organización.
           li.d-flex.align-items-start.pb-2.mb-2
             img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
             p.mb-0(data-aos="fade-left") Garantizar la disponibilidad de la mercancía ofertada, cumpliendo con los requerimientos de entrega en los tiempos pactados y con productos de calidad para satisfacer las necesidades de los clientes.
@@ -310,7 +310,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
               h3.mb-1 Ficha técnica de alimentos
-              p.text-small Formato único de alimentos registros sanitarios o permiso sanitario o notificación sanitaria y tramites asociados (resolución 2674 de 2013, resolución 3168 de 2015). Archivo Excel que puede ver en el siguiente enlace:
+              p.text-small Formato único de alimentos registros sanitarios o permiso sanitario o notificación sanitaria y trámites asociados (resolución 2674 de 2013, resolución 3168 de 2015). Archivo Excel que puede ver en el siguiente enlace:
             .col-sm-auto
               a.boton.color-acento-botones(href="https://app.invima.gov.co/blog_invima/blog_alimentos/admin/uploads/tutoriales/info3.html#/0/16" target="_blank" style="background-color: #E6B046")
                 span Ir a página
@@ -327,7 +327,7 @@
       .col-12.col-lg-8.ps-lg-4
         LineaTiempoD.color-secundario(data-aos="fade-left")
           div(numero="1" titulo="Gestión de inventarios")
-            p.mb-0 Una organización debe conocer muy bien su funcionamiento, ya que de esta forma puede realizar una correcta gestión de sus inventarios, lo cual tiene como finalidad controlar el flujo de mercancías de manera que se puedan reducir las existencias y teniendo siempre en stock lo necesario para cumplir con los requerimientos de los clientes.
+            p.mb-0 Una organización debe conocer muy bien su funcionamiento, ya que de esta forma puede realizar una correcta gestión de sus inventarios, lo cual tiene como finalidad controlar el flujo de mercancías de manera que se puedan reducir las existencias y teniendo siempre en <i>stock</i> lo necesario para cumplir con los requerimientos de los clientes.
           div(numero="2" titulo="Registro exacto")
             p.mb-0 La gestión de inventarios busca un control preciso de existencias y un registro exacto de movimientos, abarcando materias primas, insumos en fabricación y productos terminados listos para la venta. Permite optimizar recursos, reducir costos y pérdidas, e incrementar la productividad al conocer ubicaciones precisas y disponibilidad.
           div(numero="3" titulo="Nivel de almacenamiento")

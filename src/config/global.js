@@ -111,7 +111,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Costos de mantenimiento de inventarios de materias primas',
+            titulo: 'Costos de mantenimiento de inventarios',
             hash: 't_2_3',
           },
           {
@@ -199,7 +199,7 @@ export default {
     {
       termino: 'Control de inventario',
       significado:
-        'tiene por objeto velar por la existencia de los stocks dentro del almacén, (inventarios cíclicos, inventarios de barrido, preservación de producto) con el fin de tener un ERI óptimo (Exactitud Registro de Inventario). Así mismo, corresponde a todos los movimientos que se realice de la mercadería (transferencia, producto no conforme, devoluciones, etc.).',
+        'tiene por objeto velar por la existencia de los <i>stocks</i> dentro del almacén, (inventarios cíclicos, inventarios de barrido, preservación de producto) con el fin de tener un ERI óptimo (Exactitud Registro de Inventario). Así mismo, corresponde a todos los movimientos que se realice de la mercadería (transferencia, producto no conforme, devoluciones, etc.).',
     },
     {
       termino: 'Costos',
@@ -245,7 +245,7 @@ export default {
     },
     {
       referencia:
-        'Formato único de alimentos registros sanitarios o permiso sanitario o notificación sanitaria y tramites asociados (resolución 2674 de 2013, resolución 3168 de 2015).',
+        'Formato único de alimentos registros sanitarios o permiso sanitario o notificación sanitaria y trámites asociados (Resolución 2674 de 2013, Resolución 3168 de 2015).',
       link:
         'https://app.invima.gov.co/blog_invima/blog_alimentos/admin/uploads/tutoriales/info3.html#/0/16',
     },
@@ -286,7 +286,7 @@ export default {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -297,7 +297,7 @@ export default {
           nombre: 'Gloria Lida Alzáte Suarez',
           cargo: 'Adecuación instruccional',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Mónica María Cárdenas Carrillo',
@@ -331,31 +331,31 @@ export default {
           nombre: 'Jesús Antonio Vecino Valero',
           cargo: 'Diseño web',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Informaciónl',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
@@ -366,19 +366,19 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro de Gestión De Mercados, Logística y Tecnologías de la Información',
         },
       ],
     },
