@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Creado con Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.76.30446.0 -->
+  <!-- version: 3.78.30680.0 -->
   <title>Actividad did&#225;ctica</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -28,7 +28,7 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#000000',
-      features: 'AccessibleVideo,ConnectionMessages,DropIn1,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoTranscripts',
+      features: 'AccessibleVideo,BgAudioBlip,ConnectionMessages,DropIn1,DropIn2,DropIn3,FullScreenToggle,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoSync',
       themeName: 'classic',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
@@ -36,8 +36,8 @@
       publishSource: 'storyline',
       aid: 'aid|5304b41d-7af7-4125-b8d1-83eb222823e2',
       cid: 'ed5d8631-d30f-44a1-b5e3-ed9c9a1032a3',
-      playerVersion: '3.76.30446.0',
-      publishTimestamp: '2023-09-16T14:27:39.3070116Z',
+      playerVersion: '3.78.30680.0',
+      publishTimestamp: '2023-09-28T20:31:31.7279165Z',
       maxIosVideoElements: 10,
       connectionSettings: { mode: 'disabled' },
 
@@ -342,7 +342,7 @@
     function assetFailed(url) {
       if (!useConnectionMessages) { return; }
       if (!DS.connection.assets[url]) {
-        if (/\.js$/.test(url)) {
+        if (/\.js$/.test(url) && url.indexOf('transcripts') === -1) {
           setTimeout(function() {
             if (DS.connection.lastSlideLoaded != null) {
               DS.connection.lastSlideLoaded();
