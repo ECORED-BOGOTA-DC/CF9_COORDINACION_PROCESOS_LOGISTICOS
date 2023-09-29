@@ -495,7 +495,7 @@
 
     Separador 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2#t_1_10 1.10 Administración de inventario por proveedores (<em>Vendor Inventory Management</em> - VMI)
+      h2#t_1_10 1.10 Administración de inventario por proveedores (<em>Vendor Managed Inventory</em> - VMI)
     
     .d-flex.flex-wrap.mb-5
       img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-35.svg" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")

@@ -87,7 +87,7 @@ export default {
           {
             numero: '1.10',
             titulo:
-              'Administración de inventario por proveedores (Vendor Inventory Management - VMI)',
+              'Administración de inventario por proveedores (Vendor Managed Inventory - VMI)',
             hash: 't_1_10',
           },
         ],
@@ -163,7 +163,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/121523_CF09_DU.zip',
+        download: 'downloads/121523_CF09_DU.pdf',
       },
       {
         icono: 'fas fa-download',

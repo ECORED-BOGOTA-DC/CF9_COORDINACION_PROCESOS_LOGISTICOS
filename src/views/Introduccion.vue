@@ -18,7 +18,7 @@
     )
       figure.col-xl-10.mx-auto(data-aos="fade-left")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/hfABGiHdsPw?si=em8s2Y_fsdmIX8cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/J2iDAKwq0u8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 
